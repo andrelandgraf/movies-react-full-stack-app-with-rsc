@@ -2,6 +2,10 @@ import { Suspense } from "react";
 import { MoviesOverview } from "./movies-overview";
 import { MoviesOverviewSkeleton } from "./movies-overview-fallback";
 
+export const config = {
+  runtime: 'edge',
+};
+
 export default async function Component() {
   return (
     <main className="w-full p-2 lg:p-8">
