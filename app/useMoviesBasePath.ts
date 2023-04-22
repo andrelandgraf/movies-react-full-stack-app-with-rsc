@@ -2,7 +2,6 @@
 
 import type { ImgHTMLAttributes, SyntheticEvent } from 'react';
 import { useRef } from 'react';
-import { useMoviesConfig } from './useMoviesConfig';
 import { FilteredMoviesAPIConfiguration } from './movies-api.server';
 
 function findBestSize(

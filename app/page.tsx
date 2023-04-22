@@ -12,6 +12,7 @@ export default async function Component() {
         </p>
       </div>
       <Suspense fallback={<MoviesOverviewSkeleton />}>
+        {/* @ts-expect-error Server Component */}
         <MoviesOverview />
       </Suspense>
     </main>
